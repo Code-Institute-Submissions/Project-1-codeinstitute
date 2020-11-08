@@ -2,9 +2,25 @@
     height:56px;
 }
 
+.Our-team-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/mpc-community-2016.jpg") ;
+    height: 24rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Our-team-banner > h1 {
+    color:white;
+    margin-top: 10rem;
+}
+
+.Our-team-banner > p {
+    color:white;
+}
+
 .carouselbanner1 {
-    opacity: 0.5;
-    background-image: url("/images/KK_220220_152.JPG") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/KK_220220_152.JPG") ;
     height: 32rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +28,7 @@
 }
 
 .carousel-caption{
-    color:darkslategray;
+    color:whitesmoke;
 }
 
 /* .carousel-inner > .carousel-item > img {
@@ -22,6 +38,19 @@
 
 .carouselbanner {
     opacity: 0.5;
+}
+
+.about-us > .row > .col-lg-4 {
+    text-align: center;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.team-row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .featurette-image {

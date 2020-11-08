@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MPC Singapore</title>
+    <title>MPC Singapore: Home</title>
     <!-- Load bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script
@@ -42,15 +42,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="Index.html"
+              >Home<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Apply</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">The Team</a>
+            <a class="nav-link" href="Team.html">Our Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">FAQ</a>
@@ -71,6 +71,7 @@
         id="carouselExampleIndicators"
         class="carousel slide"
         data-ride="carousel"
+        data-interval="false"
       >
         <ol class="carousel-indicators">
           <li
@@ -83,9 +84,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              class="carouselbanner1 d-block w-100"
-            />
+            <img class="carouselbanner1 d-block w-100" />
             <div class="carousel-caption text-right">
               <h5>First slide label</h5>
               <p>Testing first slide</p>
@@ -129,6 +128,72 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4">Hi lovebirds :)</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-3" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+    <!-- History, Mission, Core Values -->
+    <div class="about-us container">
+      <div class="row">
+        <!-- column 1 -->
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2>Our Mission</h2>
+          <p>
+            The Marriage Preparation Course (MPC) is a Catholic programme which
+            was formed in 1983 to help couples intending to marry.
+          </p>
+        </div>
+        <!-- column 2 -->
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2>Our Values</h2>
+          <p>
+            The Marriage Preparation Course (MPC) is a Catholic programme which
+            was formed in 1983 to help couples intending to marry.
+          </p>
+        </div>
+        <!-- column 3 -->
+        <div class="col-lg-4">
+          <img
+            class="rounded-circle"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+            alt="placeholder image"
+            width="140"
+            height="140"
+          />
+          <h2>Our History</h2>
+          <p>
+            The Marriage Preparation Course (MPC) is a Catholic programme which
+            was formed in 1983 to help couples intending to marry.
+          </p>
+        </div>
       </div>
     </div>
     <hr class="featurette-divider" />
@@ -178,10 +243,33 @@
       </div>
     </div>
     <hr class="featurette-divider" />
+    <!-- Featurettes 3-->
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            3rd featurette heading.
+            <span class="text-muted">How do people know this span thing?</span>
+          </h2>
+          <p class="lead">
+            la di da some information about what MPC stands for and what they
+            want to achieve
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="featurette-image img-fluid mx-auto align-middle"
+            src="https://emceelester.com/wp-content/uploads/2018/04/Catholic-Mass-Wedding-Booklet.jpg"
+            alt="featurette image 1"
+          />
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider" />
     <!-- Footer with padding-->
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Place footer content here.</span>
+        <span class="text-muted">Copyright © Marriage Preparation Course, Catholic Archdiocese of Singapore. All Rights Reserved.</span>
       </div>
     </footer>
   </body>
