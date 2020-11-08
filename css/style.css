@@ -1,0 +1,42 @@
+.push-navbar-down{
+    height:56px;
+}
+
+.carouselbanner1 {
+    opacity: 0.5;
+    background-image: url("/images/KK_220220_152.JPG") ;
+    height: 32rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption{
+    color:darkslategray;
+}
+
+/* .carousel-inner > .carousel-item > img {
+    height: 25vh;
+    width: 100%;
+} */
+
+.carouselbanner {
+    opacity: 0.5;
+}
+
+.featurette-image {
+    height: 300px;
+    width: 500px;
+}
+
+.featurette-divider {
+    margin:2rem;
+}
+
+.featurette-heading {
+    margin-top: 5rem;
+}
+
+.footer {
+    background-color: #f5f5f5;;
+}
