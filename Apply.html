@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MPC Singapore: Our Team</title>
+    <!-- Load bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- load style.css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">MPC Singapore</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Team.html">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+        </ul>
+        <span class="navbar-text"> His Love Is Made Perfect In Us </span>
+      </div>
+    </nav>
+    <!-- Container to push content down -->
+    <div class="push-navbar-down row-fluid"></div>
+    <!-- Banner -->
+    <div class="apply-banner jumbotron">
+      <h1 class="display-4">Applying for MPC</h1>
+      <h3>Course Application Schedule</h3>
+    </div>
+
+    <!-- Sign up -->
+    <div class="sign-up-button container">
+      <h1 class="sign-up-heading">Q4 2021 Now Open</h1>
+      <p class="sign-up-text">
+        Couples who have a confirmed church wedding date before April 2022 may
+        sign-up now
+      </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Quarter</th>
+                    <th>Availability</th>
+                    <th>Course Starts On</th>
+                    <th>Course Ends On</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Q4 2021</td>
+                    <td>Open</td>
+                    <td>3 October 2021</td>
+                    <td>7 November 2021</td>
+                </tr>
+            </tbody>
+        </table>
+
+      <!-- sign-up button -->
+      <div class="Sign-up-section">
+        <button class="sign-up-button btn btn-secondary my-4 mx-4"
+          type="button"
+          data-toggle="collapse"
+          data-target="#sign-up-collapse"
+          aria-expanded="false"
+          aria-controls="sign-up-collapse"
+        >
+          Sign-Up Now
+        </button>
+        <!-- sign-up form -->
+        <div class="sign-up-form collapse" id="sign-up-collapse">
+          <form class="px-4 py-3">
+            <!-- Name -->
+            <div class="form-group">
+              <label for="Name">Your Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="sign-up-form-name"
+                placeholder="e.g. : Mark Paul Tan"
+              />
+              <small id="name-help" class="form-text text-muted"
+                >Let us know who you are :)</small
+              >
+            </div>
+            <!-- Mobile Number -->
+            <div class="form-group">
+              <label for="MobileNumber"
+                >Your Singapore Mobile Number (+65)
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="sign-up-form-name-mobilenumber"
+                placeholder="e.g. : 92584658"
+              />
+              <small id="name-help" class="form-text text-muted"></small>
+            </div>
+            <!-- Email -->
+            <div class="form-group">
+              <label for="Email">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="sign-up-form-name-email"
+                placeholder="e.g. : marktan@gmail.com"
+              />
+              <small id="name-help" class="form-text text-muted"></small>
+            </div>
+            <!-- Partner's Name -->
+            <div class="form-group">
+              <label for="PartnerName">Partner's Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="sign-up-form-partner-name"
+                placeholder="e.g. : Beverly Faith Chow"
+              />
+              <small id="name-help" class="form-text text-muted"
+                >Let us know who your lucky other half is!</small
+              >
+            </div>
+            <!-- Confirmed date of church wedding -->
+            <div class="form-group">
+                <label for="church-wedding-date">Church Wedding Date</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="sign-up-form-churchdate"
+                />
+                <small id="date-help" class="form-text text-muted"
+                  >Please make sure to reach out to your church to secure a date</small
+                >
+              </div>
+            <!-- Submit -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <small id="submit-help" class="form-text text-muted"
+              >We will reach out to you within 3 working days via Whatsapp or email</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    
+    <!-- Past Courses Section -->
+    <div class="past-courses-section container">
+        <h1>Past Courses</h1>
+        <p class="form-text pb-3">Application for the below course times are closed</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Quarter</th>
+                    <th>Availability</th>
+                    <th>Course Starts On</th>
+                    <th>Course Ends On</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Q4 2020</td>
+                    <td>Closed</td>
+                    <td>20 Sep 2020</td>
+                    <td>25 October 2021</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Q1 2021</td>
+                    <td>Closed</td>
+                    <td>21 February 2021</td>
+                    <td>28 March 2021</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Q2 2021</td>
+                    <td>Closed</td>
+                    <td>18 April 2021</td>
+                    <td>23 May 2021</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Q3 2021</td>
+                    <td>Closed</td>
+                    <td>18 July 2021</td>
+                    <td>23 August 2021</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </body>
+</html>
