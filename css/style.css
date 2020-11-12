@@ -3,7 +3,7 @@
 }
 
 .apply-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/afif-kusuma-CT7IWRM7G5k-unsplash.jpg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/khamkeo-vilaysing-OcxlTBbb6SY-unsplash.jpg") ;
     height: 24rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,7 +38,7 @@
     margin-top: 10rem;
 }
 
-.Our-team-banner > p {
+.Our-team-banner > h3 {
     color:white;
 }
 
@@ -68,10 +68,27 @@
     text-align: center;
 }
 
+.faq-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/faqs.jpg") ;
+    height: 24rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.faq-banner > h1 {
+    color:white;
+    margin-top: 10rem;
+}
+
+.faq-banner > h3 {
+    color:white;
+}
+
+
 /* Home Featurette */
 .featurette-image {
     height: 300px;
-    width: 500px;
 }
 
 .featurette-divider {
