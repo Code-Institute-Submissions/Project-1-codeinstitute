@@ -1,110 +1,140 @@
-.push-navbar-down{
-    height:56px;
+.push-navbar-down {
+  height: 56px;
 }
 
-.apply-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/khamkeo-vilaysing-OcxlTBbb6SY-unsplash.jpg") ;
-    height: 24rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.apply-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/khamkeo-vilaysing-OcxlTBbb6SY-unsplash.jpg");
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .apply-banner > h1 {
-    color:white;
-    margin-top: 10rem;
+  color: white;
+  margin-top: 10rem;
 }
 
-.apply-banner > h3  {
-    color:white;
+.apply-banner > h3 {
+  color: white;
 }
 
-.sign-up-heading, .sign-up-text, .sign-up-button{
-    margin-top:1rem;
-    margin-bottom:1rem;
-    text-align: center;
+.sign-up-heading,
+.sign-up-text,
+.sign-up-button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
-.Our-team-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/mpc-community-2016.jpg") ;
-    height: 24rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.Our-team-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mpc-community-2016.jpg");
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .Our-team-banner > h1 {
-    color:white;
-    margin-top: 10rem;
+  color: white;
+  margin-top: 10rem;
 }
 
 .Our-team-banner > h3 {
-    color:white;
+  color: white;
 }
 
-
 .our-team {
-    text-align: center;
+  text-align: center;
 }
 
 .team-row {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.carouselbanner1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/KK_220220_152.JPG") ;
-    height: 32rem;
+.carousel-banner-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/images/rachel-marcus-church-kiss.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-banner-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("/images/nathan-dumlao-5BB_atDT4oA-unsplash.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-banner-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/better-together.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron-picture {
+    background-image: url("/images/KK_220220_152.JPG");
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+  }
 
-.carousel-caption{
-    color:whitesmoke;
+.carousel-caption {
+  color: whitesmoke;
 }
 
 .about-us > .row > .col-lg-4 {
-    text-align: center;
+  text-align: center;
 }
 
-.faq-banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/faqs.jpg") ;
-    height: 24rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.faq-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/faqs.jpg");
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .faq-banner > h1 {
-    color:white;
-    margin-top: 10rem;
+  color: white;
+  margin-top: 10rem;
 }
 
-.faq-banner > h3 {
-    color:white;
+.faq-banner > h4 {
+  color: white;
 }
-
 
 /* Home Featurette */
 .featurette-image {
-    height: 300px;
+  height: 300px;
 }
 
 .featurette-divider {
-    margin:2rem;
+  margin: 2rem;
 }
 
 .featurette-heading {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .past-courses-section {
-    text-align: center;
-    margin-top:3rem;
-    margin-bottom:3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .footer {
-    background-color: #f5f5f5;;
+  background-color: #f5f5f5;
 }
