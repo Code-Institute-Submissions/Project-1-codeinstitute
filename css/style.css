@@ -13,7 +13,7 @@
 
 .apply-banner > h1 {
   color: white;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .apply-banner > h3 {
@@ -39,7 +39,7 @@
 
 .Our-team-banner > h1 {
   color: white;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .Our-team-banner > h3 {
@@ -83,12 +83,12 @@
 }
 
 .jumbotron-picture {
-    background-image: url("/images/KK_220220_152.JPG");
-    height: 350px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+  background-image: url("/images/KK_220220_152.JPG");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .carousel-caption {
   color: whitesmoke;
