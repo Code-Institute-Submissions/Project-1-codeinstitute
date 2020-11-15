@@ -1,6 +1,24 @@
 .push-navbar-down {
   height: 56px;
 }
+.testimonial-banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/images/sfx-father-bride.jpg");
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial-banner > h1 {
+  color: white;
+  margin-top: 10rem;
+}
+
+.testimonial-banner > h4 {
+  color: white;
+}
+
 
 .apply-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -28,7 +46,7 @@
   text-align: center;
 }
 
-.Our-team-banner {
+.our-team-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/images/mpc-community-2016.jpg");
   height: 24rem;
@@ -37,12 +55,12 @@
   background-size: cover;
 }
 
-.Our-team-banner > h1 {
+.our-team-banner > h1 {
   color: white;
   margin-top: 5rem;
 }
 
-.Our-team-banner > h3 {
+.our-team-banner > h3 {
   color: white;
 }
 
