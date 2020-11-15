@@ -3,7 +3,7 @@
 }
 .testimonial-banner{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/images/sfx-father-bride.jpg");
+    url("images/sfx-father-bride.jpg");
   height: 24rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +22,7 @@
 
 .apply-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/khamkeo-vilaysing-OcxlTBbb6SY-unsplash.jpg");
+    url("images/khamkeo-vilaysing-OcxlTBbb6SY-unsplash.jpg");
   height: 24rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +48,7 @@
 
 .our-team-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mpc-community-2016.jpg");
+    url("images/mpc-community-2016.jpg");
   height: 24rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +75,7 @@
 
 .carousel-banner-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/images/rachel-marcus-church-kiss.jpg");
+    url("images/rachel-marcus-church-kiss.jpg");
   height: 30rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,7 +84,7 @@
 
 .carousel-banner-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("/images/nathan-dumlao-5BB_atDT4oA-unsplash.jpg");
+    url("images/nathan-dumlao-5BB_atDT4oA-unsplash.jpg");
   height: 30rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +93,7 @@
 
 .carousel-banner-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/better-together.jpg");
+    url("images/better-together.jpg");
   height: 30rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@
 }
 
 .jumbotron-picture {
-  background-image: url("/images/KK_220220_152.JPG");
+  background-image: url("images/KK_220220_152.JPG");
   height: 350px;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,7 +118,7 @@
 
 .faq-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/faqs.jpg");
+    url("images/faqs.jpg");
   height: 24rem;
   background-repeat: no-repeat;
   background-position: center;
