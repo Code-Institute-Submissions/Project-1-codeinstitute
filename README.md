@@ -1,4 +1,4 @@
-# ![MPC logo](https://www.mpcsingapore.com/mpc/blogimages/mpc-logo.png) Catholic MPC Singapore Website 
+# ![MPC logo](https://www.mpcsingapore.com/mpc/blog/images/mpc-logo.png) Catholic MPC Singapore Website 
 
 # Background & Objective
 - Complete Milestone Project 1: User-Centric Front-end Development
