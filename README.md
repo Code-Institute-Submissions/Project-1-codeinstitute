@@ -40,6 +40,7 @@ The key difference between the old website and the one I am putting together is 
 - Wire-frame kit recommended by [Adobe XD Ideas](https://xd.adobe.com/ideas/process/wireframing/wireframe-templates-for-ux-designers/) was used
 - I chose the [Wires Template](https://www.behance.net/gallery/55462459/Wires-wireframe-kits-for-Adobe-XD) as a base to do my UI prototyping. 
 - Credits to the creators of Wires: [Kyle Galle](https://www.behance.net/kgalle_adobe), [UI8](https://www.behance.net/ui8), and [Jonathan Pimento](https://www.behance.net/jonathanpimento)
+<br>
 
 ## Prototyping Ideation
 MPC Singpore's existing website had an outdated UI, but was clearly separated into a few sections
@@ -52,23 +53,57 @@ MPC Singpore's existing website had an outdated UI, but was clearly separated in
 
 For the purpose of this project, I grouped items into a few key pages.
 The below table lists these pages and their mockups
+<br>
 
 ## Front-End UI
 
-| Page Name | Sample    |
-|---|---|
-| Homepage  | # ![Homepage]([]])|
-| Apply |# ![Apply]([]])   |
-| Our Team |# ![Our Team]([]])   |
-| FAQ | # ![FAQ]([]])  |
+| Page Name | Sample| Features
+|---|---|---|
+| Homepage  | # ![Homepage]([]])| 1. Navigation Bar <br> 2. Carousel for Administrators <br>3. Featurettes<br>4. Footer|
+| Apply |# ![Apply]([]])| 1. Application Form<br>2. Calendar Table <br> 3. Other relevant information for Sign-up|
+| Our Team |# ![Our Team]([]])| 1. Section on Team members and their titles/appointments|
+| FAQ | # ![FAQ]([]])|
 | Testimonials |# ![Testimonials]([]])   |
 
+<br>
+
 # Bootstrap 4 Implementation
+Bootstrap 4 was used for re-building the website in a responsive, mobile-first manner 
+You can access Boostrap 4 resouces [here](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+The below `code snippets` were added to HTML `<head>`
+
+- For CSS
+```
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+```
+- For JS
+```
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+```
 
 # Boostrap 4 Templates Used
+The following Boostrap resouces were used in creating this website
+
+|Name of Resource|Link|Description|
+|---|---|---|
+|General Grid and Layout|[Link](https://getbootstrap.com/docs/4.5/layout/overview/)|Bootstrap grid system for layout|
+|Tweaking sizing & positioning|[Link](https://getbootstrap.com/docs/4.5/utilities/)|Full list of bootstrap utility classes to manage changes in size and positioning
+|Carousel|[Link](https://getbootstrap.com/docs/4.5/examples/carousel/)|Used for navbar and Homepage carousel & featurette|
+|Sticky footer|[Link](https://getbootstrap.com/docs/4.5/examples/sticky-footer/)|Used for page footer|
+|Jumbotron|[Link](https://getbootstrap.com/docs/4.5/components/jumbotron/)|Used for Hero Images|
+|Collapse Accordion|[Link](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example)|Used for FAQ section|
+|Forms|[Link](https://getbootstrap.com/docs/4.5/components/forms/)|For creating pseudo form|
+
+<br>
+**Please Note** due to nature of project (Only front-end focused), the sign-up form does not actually collect data and store it in a back-end database.
+<br>
+<br>
 
 # Content Credits - Text
-All **Text** content in the pages are handled by 
+All **Text** content in the pages are the reserved property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**. I do not claim any of the content as my own.
 
 ## Font
 
