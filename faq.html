@@ -1,198 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <title>MPC Singapore: FAQ</title>
+    <!-- Load bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- load style.css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
-  <title>MPC Singapore: FAQ</title>
-  <!-- Load bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <!-- load style.css -->
-  <link href="css/style.css" type="text/css" rel="stylesheet" />
-  <!-- Load Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="index.html">
-      <img class="d-inline-block align-top" src="images/mpc-logo.png" alt="MPC Logo" width="30" height="30" loading="lazy">
-      MPC Singapore</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="apply.html">Apply</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="team.html">Our Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="faq.html">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="testimonials.html">Testimonials</a>
-        </li>
-      </ul>
-      <span class="navbar-text"> His Love Is Made Perfect In Us </span>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img
+          class="d-inline-block align-top"
+          src="images/mpc-logo.png"
+          alt="MPC Logo"
+          width="30"
+          height="30"
+          loading="lazy"
+        />
+        MPC Singapore</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+        </ul>
+        <span class="navbar-text"> His Love Is Made Perfect In Us </span>
+      </div>
+    </nav>
+    <!-- Container to push content down -->
+    <div class="push-navbar-down row-fluid"></div>
+    <!-- Banner -->
+    <div class="faq-banner jumbotron">
+      <h1>Frequently Asked Questions</h1>
+      <h4>about Catholic MPC Singapore</h4>
     </div>
-  </nav>
-  <!-- Container to push content down -->
-  <div class="push-navbar-down row-fluid"></div>
-  <!-- Banner -->
-  <div class="faq-banner jumbotron">
-    <h1>Frequently Asked Questions</h1>
-    <h4>about Catholic MPC Singapore</h4>
-  </div>
 
-  <!-- FAQ Accordion -->
-  <div class="container accordion-container mb-5">
-    <div id="accordion">
-      
-      <!-- FAQ 1 -->
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              Who is MPC for?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
-            MPC is for couples who are seriously contemplating marriage, who want to be sure that they are ready for marriage and that they are suited for each other. It is for couples who wish to avoid surprises after marriage by preparing for that marriage. The course should be attended preferably before your engagement is formally announced and at least 6 months before the wedding date.
+    <!-- FAQ Accordion -->
+    <div class="container accordion-container mb-5">
+      <div id="accordion">
+        <!-- FAQ 1 -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Who is MPC for?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              MPC is for couples who are seriously contemplating marriage, who
+              want to be sure that they are ready for marriage and that they are
+              suited for each other. It is for couples who wish to avoid
+              surprises after marriage by preparing for that marriage. The
+              course should be attended preferably before your engagement is
+              formally announced and at least 6 months before the wedding date.
+            </div>
           </div>
         </div>
-      </div>
-      <!-- FAQ 2 -->
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseTwo"
-              aria-expanded="false" aria-controls="collapseTwo">
-              Can Non-Catholics Attend the Course?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            At least one partner must be Catholic. The course is Catholic in its theology of marriage as a Sacrament of the church.
+        <!-- FAQ 2 -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Can Non-Catholics Attend the Course?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              At least one partner must be Catholic. The course is Catholic in
+              its theology of marriage as a Sacrament of the church.
+            </div>
           </div>
         </div>
-      </div>
-      <!-- FAQ 3 -->
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseThree"
-              aria-expanded="false" aria-controls="collapseThree">
-              Does MPC respect our privacy?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            Yes. MPC emphasizes communication between couples. Presentations are given to the group as a whole, but your couple discussions are private. You are encouraged to concentrate on your partner and to get in touch with your deepest and honest feelings when discussing a variety of topics.
+        <!-- FAQ 3 -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Does MPC respect our privacy?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Yes. MPC emphasizes communication between couples. Presentations
+              are given to the group as a whole, but your couple discussions are
+              private. You are encouraged to concentrate on your partner and to
+              get in touch with your deepest and honest feelings when discussing
+              a variety of topics.
+            </div>
           </div>
         </div>
-      </div>
-      <!-- FAQ 4 -->
-      <div class="card">
-        <div class="card-header" id="headingFour">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseFour"
-              aria-expanded="false" aria-controls="collapseFour">
-              How does MPC prepare us for Marriage?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-          <div class="card-body">
-            MPC provides the opportunity for you to be open with your partner – a time together to talk honestly about your future lives. The course will also help you to know yourself in the areas where you are vulnerable, your needs and your expectations. You will also learn to discover your partner’s strengths and weaknesses. These discussions will enable you to know each other more intimately. You will then understand why both of you behave the way you do and the likely consequences of this on your future life together as husband and wife.
+        <!-- FAQ 4 -->
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                How does MPC prepare us for Marriage?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              MPC provides the opportunity for you to be open with your partner
+              – a time together to talk honestly about your future lives. The
+              course will also help you to know yourself in the areas where you
+              are vulnerable, your needs and your expectations. You will also
+              learn to discover your partner’s strengths and weaknesses. These
+              discussions will enable you to know each other more intimately.
+              You will then understand why both of you behave the way you do and
+              the likely consequences of this on your future life together as
+              husband and wife.
+            </div>
           </div>
         </div>
-      </div>
-      <!-- FAQ 5 -->
-      <div class="card">
-        <div class="card-header" id="headingFive">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseFive"
-              aria-expanded="false" aria-controls="collapseFive">
-              When are courses conducted?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-          <div class="card-body">
-            Four MPC courses will be held each year. Each courses runs for six consecutive weeks, comprising three (half day) Sunday morning sessions at Saint Joseph’s Institution (SJI) and three other (half day) sessions which are held at the homes of Presenting Couples on weekends. There is a fair amount of preparation that needs to be done in between sessions. As every session builds upon the previous sessions into an integrated programme, no part of the course should be missed. Please plan accordingly for the duration of the course (eg. during the course period, please do not plan a very hectic schedule, overseas trips, etc.) so as to allow your fullest participation. Thank you.
-            <div class="my-3"></div>
-            Please check the <a href="/Apply.html">Course Schedule</a> for dates of the courses.
+        <!-- FAQ 5 -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                When are courses conducted?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Four MPC courses will be held each year. Each courses runs for six
+              consecutive weeks, comprising three (half day) Sunday morning
+              sessions at Saint Joseph’s Institution (SJI) and three other (half
+              day) sessions which are held at the homes of Presenting Couples on
+              weekends. There is a fair amount of preparation that needs to be
+              done in between sessions. As every session builds upon the
+              previous sessions into an integrated programme, no part of the
+              course should be missed. Please plan accordingly for the duration
+              of the course (eg. during the course period, please do not plan a
+              very hectic schedule, overseas trips, etc.) so as to allow your
+              fullest participation. Thank you.
+              <div class="my-3"></div>
+              Please check the <a href="/Apply.html">Course Schedule</a> for
+              dates of the courses.
+            </div>
           </div>
         </div>
-      </div>
-      <!-- FAQ 6 -->
-      <div class="card">
-        <div class="card-header" id="headingSix">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseSix"
-              aria-expanded="false" aria-controls="collapseSix">
-              When should we attend MPC?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-          <div class="card-body">
-            Couples planning to marry are advised to attend the course at least 6 months before the wedding date. Accordingly, do register suitably in advance of your course start date.
+        <!-- FAQ 6 -->
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                When should we attend MPC?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseSix"
+            class="collapse"
+            aria-labelledby="headingSix"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Couples planning to marry are advised to attend the course at
+              least 6 months before the wedding date. Accordingly, do register
+              suitably in advance of your course start date.
+            </div>
           </div>
         </div>
-      </div>  
 
-      <!-- FAQ 7 -->
-      <div class="card">
-        <div class="card-header" id="headingSeven">
-          <h5 class="mb-0">
-            <button class="btn btn-light w-100 text-left" data-toggle="collapse" data-target="#collapseSeven"
-              aria-expanded="false" aria-controls="collapseSeven">
-              How much does it cost?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-          <div class="card-body">
-            The course fee is S$200.00 per couple payable in advance when you submit your application form. Payment should be by crossed cheque or money order payable to Marriage Preparation Course together with your application form. Payment is not refundable. However no couple will be turned away for financial reasons. Please inform us of any financial difficulties.
+        <!-- FAQ 7 -->
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-light w-100 text-left"
+                data-toggle="collapse"
+                data-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                How much does it cost?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseSeven"
+            class="collapse"
+            aria-labelledby="headingSeven"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The course fee is S$200.00 per couple payable in advance when you
+              submit your application form. Payment should be by crossed cheque
+              or money order payable to Marriage Preparation Course together
+              with your application form. Payment is not refundable. However no
+              couple will be turned away for financial reasons. Please inform us
+              of any financial difficulties.
+            </div>
           </div>
         </div>
-      </div>  
-
+      </div>
     </div>
-  </div>
-  <!-- Footer with padding-->
-  <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">Copyright © Marriage Preparation Course, Catholic Archdiocese of
-        Singapore. All Rights Reserved.</span>
-    </div>
-  </footer>
-</body>
-
+    <!-- Footer with padding-->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted"
+          >Copyright © Marriage Preparation Course, Catholic Archdiocese of
+          Singapore. All Rights Reserved.</span
+        >
+      </div>
+    </footer>
+  </body>
 </html>
