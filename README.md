@@ -149,7 +149,7 @@ All rights belong to the owners of these websites, and the photographers that pr
 # 11. Testing
 ## 11.1 Code Validation using Code Validators
 - All HTML files were passed through [W3C's Nu Html Checker](https://validator.w3.org/nu/#file)
-- All CSS files were passed through [W3C's CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_upload)
+- All CSS files were passed through [W3C's Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_upload)
 
 HTML and CSS files were uploaded to both validators and code was edited to ensure that no errors remained
 
