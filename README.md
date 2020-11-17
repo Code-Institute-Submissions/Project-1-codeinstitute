@@ -66,7 +66,7 @@ The below table lists these pages and their mockups.
 <br>
 
 ### 6.3.1 Components
-Since bootstrap is mobile first, all mockups were done with a mobile template in mine. Referencing the [User Stories]() and the information that MPC Singapore already has [Existing Website Content]() we can determine the key features features that would both fulfill the User Stories and the Existing Website Content.
+Since bootstrap is mobile first, all mockups were done with a mobile template in mine. Referencing the User Stories and the information that MPC Singapore already has Existing Website Content we can determine the key features features that would both fulfill the User Stories and the Existing Website Content.
 
 - Navigation Bar
 - Footer
@@ -141,6 +141,8 @@ All rights belong to the owners of these websites, and the photographers that pr
 2. [Khamkéo Vilaysing's photo](https://unsplash.com/photos/OcxlTBbb6SY)
 3. [Afif Kusuma's photo](https://unsplash.com/photos/CT7IWRM7G5k)
 4. [Photos taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
+5. My own church wedding photos taken by [Lightedpixels photography](https://www.lightedpixels.com/)
+6. Group pictures taken from my own MPC group
 
 # 11. Testing
 ## 11.1 Code Validation
