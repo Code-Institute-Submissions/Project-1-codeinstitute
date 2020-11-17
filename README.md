@@ -115,12 +115,32 @@ The following Boostrap resouces were used in creating this website
 
 # 9. Content Credits - Text
 - **All text** content in the pages are the property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**
-- I do not claim any of MPC Singapore's content as my own.
+- I do not claim any of MPC Singapore's content as my own. All rights belong to MPC Singapore's managing committee.
 
 ## 9.1 Fonts used
+The font used in all pages are customized to Roboto.
+Inspiration to use Roboto was from [fontpair.co's featured pairs](https://fontpair.co/#featured-pairs)
+
+Initially `Domine & Roboto` were choses as the Heading and Body pairs, but Domine did not suit the sleek look and feel of the website. 
+
+I opted to simply go for `Roboto & Roboto` instead, with a heavier font weight for the `navbar`. Some customizations were used for `navbar-text`
+
+Fonts were implemented using [Google fonts](https://fonts.google.com/specimen/Roboto), and styled/customized in external css file `style.css` 
+
+```
+font-family: 'Roboto', sans-serif;
+```
 
 # 10. Content Credits - Pictures
-The below list lists out the key sources of all the pictures used in the [demo](https://github.com/Malrhis/Project-1-codeinstitute#demo)
+The below list lists out the key sources of all the pictures used in the [demo](https://github.com/Malrhis/Project-1-codeinstitute#demo). 
+
+I do not claim any of the pictures or logos used as my own.
+All rights belong to the owners of these websites, and the photographers that produced theses photos.
+
+1. [Photos taken from MPC Singapore's website](https://www.mpcsingapore.com/)
+2. [Khamkéo Vilaysing's photo](https://unsplash.com/photos/OcxlTBbb6SY)
+3. [Afif Kusuma's photo](https://unsplash.com/photos/CT7IWRM7G5k)
+4. [Photos taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
 
 # 11. Testing
 ## 11.1 Code Validation
