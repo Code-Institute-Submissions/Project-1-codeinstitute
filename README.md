@@ -96,8 +96,8 @@ The below `code snippets` were added to HTML `<head>`
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 ```
 
-# 8. Boostrap 4 Templates Used
-The following Boostrap resouces were used in creating this website
+# 8. Boostrap 4 Templates & Examples Used
+The following Boostrap resouces were used in creating this website. Credits to the bootstrap team for these free resources and the tutorials the `getbootstrap.com`
 
 |Resource|URL|Description|
 |---|---|---|
@@ -178,3 +178,7 @@ Website is currently deployed on using Github Pages.
 
 **Homepage link: 
 https://malrhis.github.io/Project-1-codeinstitute/index.html**
+
+# 14. Acknowledgements
+- [Mr Malcolm Yam](https://www.linkedin.com/in/malcolmyam/) - Who introduced us to bootstrap
+- [Mr Arif Rawi](https://www.linkedin.com/in/arif-rawi-9661aa192/) - Who taught us HTML and CSS basics
