@@ -18,12 +18,14 @@ Deployed result of efforts via Github Pages
 - Github - for Version Control
 
 # 4. The Goals: User Stories or (JTBD) Jobs-to-be-Done
+```
 1. As a user I would like to find out about what MPC is about easily when I land on the homepage
 2. As a user I would like to know what's the schedule of MPC
 3. As a user I would like to be able to sign up for MPC if I feel that it suits me
 4. As a user I would like to know more about the people running the course
 5. As a user I would like to know how other people felt about the course after they attended it
 6. I would like to be able to access this information on the go
+```
 
 # 5. Key Features
 The user stories show that most users require an information repository laid out to them in an easily digestible manner, something which modern web design can handle via technologies like **Bootstrap 4**. 
@@ -106,15 +108,13 @@ The following Boostrap resouces were used in creating this website
 |Jumbotron|[Link](https://getbootstrap.com/docs/4.5/components/jumbotron/)|Used for Hero Images|
 |Collapse Accordion|[Link](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example)|Used for FAQ section|
 |Forms|[Link](https://getbootstrap.com/docs/4.5/components/forms/)|For creating pseudo form|
+<br>
 
-<br>
 **Please Note** due to nature of project (Only front-end focused), the sign-up form does not actually collect data and store it in a back-end database.
-<br>
 <br>
 
 # 9. Content Credits - Text
-- **All text** content in the pages are the property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**. 
-<br>
+- **All text** content in the pages are the property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**
 - I do not claim any of MPC Singapore's content as my own.
 
 ## 9.1 Fonts used
