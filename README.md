@@ -145,9 +145,9 @@ All rights belong to the owners of these websites, and the photographers that pr
 6. Group pictures taken from my own MPC group
 
 # 11. Testing
-## 11.1 Code Validation
-## 11.2 Bug fixing Process
-The following process was followed to ensure that the site works on Github pages.
+## 11.1 Code Validation using Code Validators
+## 11.2 User Acceptance Testing + Bug fixing Process
+The following process was followed to ensure that the site works on Github pages, on a desktop browser and on Mobile:
 1. Commit and Push Changes to Main Brance
 2. Go to [site](https://github.com/Malrhis/Project-1-codeinstitute#demo) to perform Live verification
 3. Inspect elements in page
@@ -161,3 +161,7 @@ The following process was followed to ensure that the site works on Github pages
 11. Repeat.
 
 # 12. Deployment
+Website is currently deployed on using Github Pages.
+
+**Homepage link: 
+https://malrhis.github.io/Project-1-codeinstitute/index.html**
