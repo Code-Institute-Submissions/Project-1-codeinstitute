@@ -162,7 +162,8 @@ The following process was followed to ensure that the site works on Github pages
 # 12. Bugs Found
 |#|Bug Description|Fix|
 |---|---|---|
-|1|Images did not render after deploying to Github Pages| Problem with Relative link path. `/images/imagename.jpg` was used instead of `images/imagename.jpg` and for the css subfolder,  `../images/imagename.jpg` should be used in order to handle the subfolder pathing.
+|1|Images did not render after deploying to Github Pages| Problem with Relative link path. `/images/imagename.jpg` was used instead of `images/imagename.jpg` and for the css subfolder,  `../images/imagename.jpg` should be used in order to handle the subfolder pathing.|
+|2|Found no gap between `navbar-brand` icon and and text in `faq.html` and `testimonials.html`.| Fixed adjustment to align with other `html` files.  
 
 # 13. Deployment
 Website is currently deployed on using Github Pages.
