@@ -139,7 +139,9 @@ All rights belong to the owners of these websites, and the photographers that pr
 
 1. [Photos taken from MPC Singapore's website](https://www.mpcsingapore.com/)
 2. [Khamkéo Vilaysing's photo](https://unsplash.com/photos/OcxlTBbb6SY)
-3. [Photos taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
+3. [Helena Lopes's photo](https://unsplash.com/photos/PGnqT0rXWLs)
+3. [Photo taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
+4. [Photo taken Mike Chen Photography](http://weddingphotographysingapore.com/actual-day-wedding/church-of-transfiguration-mbs-wedding-singapore/)
 4. My own church wedding photos taken by [Lightedpixels photography](https://www.lightedpixels.com/)
 5. Group pictures taken from my own MPC group
 
