@@ -62,7 +62,7 @@ The below table lists these pages and their mockups.
 
 | Homepage | Apply | Our Team| FAQ|Testimonials|
 |---|---|---|---|---|
-|<img src="images/Home.png" height="300px" width="200px">|<img src="images/Programme Schedule.png" height="300px" width="200px"> |<img src="images/The Team.png" height="300px" width="200px"> |<img src="images/The Team.png" height="300px" width="200px">|<img src="images/Testimonials.png" height="300px" width="200px">
+|<img src="images/mockup-home.png" height="300px" width="200px">|<img src="images/mockup-programme-schedule.png" height="300px" width="200px"> |<img src="images/mockup-the-team.png" height="300px" width="200px"> |<img src="images/mockup-faq.png" height="300px" width="200px">|<img src="images/mockup-testimonials.png" height="300px" width="200px">
 <br>
 
 ### 6.3.1 Components
@@ -139,10 +139,9 @@ All rights belong to the owners of these websites, and the photographers that pr
 
 1. [Photos taken from MPC Singapore's website](https://www.mpcsingapore.com/)
 2. [Khamkéo Vilaysing's photo](https://unsplash.com/photos/OcxlTBbb6SY)
-3. [Afif Kusuma's photo](https://unsplash.com/photos/CT7IWRM7G5k)
-4. [Photos taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
-5. My own church wedding photos taken by [Lightedpixels photography](https://www.lightedpixels.com/)
-6. Group pictures taken from my own MPC group
+3. [Photos taken from HerWorld magazine's article on 23 Gorgeous Ways These Couples Styled Their Church Weddings](https://www.herworld.com/gallery/fashion/shopping/wedding-decor-couples-styled-church-singapore/)
+4. My own church wedding photos taken by [Lightedpixels photography](https://www.lightedpixels.com/)
+5. Group pictures taken from my own MPC group
 
 # 11. Testing
 ## 11.1 Code Validation using Code Validators
@@ -160,7 +159,12 @@ The following process was followed to ensure that the site works on Github pages
 10. Check if bug is fixed by going to [site](https://github.com/Malrhis/Project-1-codeinstitute#demo)
 11. Repeat.
 
-# 12. Deployment
+# 12. Bugs Found
+|#|Bug Description|Fix|
+|---|---|---|
+|1|Images did not render after deploying to Github Pages| Problem with Relative link path. `/images/imagename.jpg` was used instead of `images/imagename.jpg` and for the css subfolder,  `../images/imagename.jpg` should be used in order to handle the subfolder pathing.
+
+# 13. Deployment
 Website is currently deployed on using Github Pages.
 
 **Homepage link: 
