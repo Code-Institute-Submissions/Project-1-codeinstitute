@@ -6,7 +6,6 @@
 - Create a website that has the principles of user-experience design, accessibility and responsiveness
 - Existing non-responsive **[MPC Singapore Website](https://www.mpcsingapore.com/)**
 
-
 # 2. Demo
 Deployed result of efforts via Github Pages
 **[Re-worked MPC Singapore Website](https://malrhis.github.io/Project-1-codeinstitute/index.html)**
@@ -56,7 +55,6 @@ MPC Singpore's existing website had an outdated UI, but was clearly separated in
 
 For the purpose of this project, I grouped items into a few key pages.
 The below table lists these pages and their mockups.
-<br>
 
 ## 6.3 Front-End UI Mock-up (AdobeXD)
 
@@ -111,7 +109,6 @@ The following Boostrap resouces were used in creating this website. Credits to t
 <br>
 
 **Please Note** due to nature of project (Only front-end focused), the sign-up form does not actually collect data and store it in a back-end database.
-<br>
 
 # 9. Content Credits - Text
 - **All text** content in the pages are the property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**
