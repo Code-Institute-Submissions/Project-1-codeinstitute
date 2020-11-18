@@ -110,6 +110,45 @@ The following Boostrap resouces were used in creating this website. Credits to t
 
 **Please Note** due to nature of project (Only front-end focused), the sign-up form does not actually collect data and store it in a back-end database.
 
+# 9. Which user stories does each page fulfill?
+## 9.1 Home page
+```
+1. As a user I would like to find out about what MPC is about easily when I land on the homepage
+6. I would like to be able to access this information on the go
+```
+<img src="images/screenshot_home.jpg" width="300px">
+
+## 9.2 Apply page
+```
+2. As a user I would like to know what's the schedule of MPC
+3. As a user I would like to be able to sign up for MPC if I feel that it suits me
+6. I would like to be able to access this information on the go
+```
+<img src="images/screenshot_apply.jpg" width="300px">
+
+## 9.2 FAQ page
+```
+1. As a user I would like to find out about what MPC is about easily when I land on the homepage
+2. As a user I would like to know what's the schedule of MPC
+4. As a user I would like to know more about the people running the course
+6. I would like to be able to access this information on the go
+```
+<img src="images/screenshot_faq.jpg" width="300px">
+
+## 9.2 Team page
+```
+4. As a user I would like to know more about the people running the course
+6. I would like to be able to access this information on the go
+```
+<img src="images/screenshot_team.jpg" width="300px">
+
+## 9.2 Testimonial page
+```
+5. As a user I would like to know how other people felt about the course after they attended it
+6. I would like to be able to access this information on the go
+```
+<img src="images/screenshot_testimonial.jpg" width="300px">
+
 # 9. Content Credits - Text
 - **All text** content in the pages are the property of **[MPC Singapore Website](https://www.mpcsingapore.com/)**
 - I do not claim any of MPC Singapore's content as my own. All rights belong to MPC Singapore's managing committee.
